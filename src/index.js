@@ -1,3 +1,5 @@
+import '@webcomponents/webcomponentsjs/custom-elements-es5-adapter';
+import '@webcomponents/webcomponentsjs/webcomponents-loader';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -7,6 +9,7 @@ import { createStore, applyMiddleware} from 'redux';
 import { Provider } from 'react-redux';
 import ReduxThunk from 'redux-thunk';
 import reducers from './reducers';
+import './rhelements/theme/cp-theme'
 
 const store = createStore(reducers, {}, applyMiddleware(ReduxThunk));
 
