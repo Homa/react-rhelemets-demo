@@ -9,8 +9,8 @@ export default {
     },
     {
       title: 'Call or Email',
-      desc: 'description 2 ... ',
-      buttonTitle: 'Learn More',
+      desc: 'Speak directly with a Red Hat support expert by phone or through email.',
+      buttonTitle: 'Contact us',
       buttonLink: '/'
     },
     {
