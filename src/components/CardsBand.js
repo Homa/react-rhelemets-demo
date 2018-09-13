@@ -15,7 +15,7 @@ class CardsBand extends Component {
     if (this.props && this.props.data.cards) {
       return this.props.data.cards.map((item, index) => {
         return (
-          <div className="col-md-4 sol-sm-12 col-sm-push-bottom" key="{index}">
+          <div className="col-md-4 sol-sm-12 col-sm-push-bottom" key={index}>
             <rh-card theme="light">
               <h2 slot="header">{ item.title }</h2>
               <p>{ item.desc }</p>
@@ -42,7 +42,6 @@ class CardsBand extends Component {
       </div>
     );
   }
-
 }
 
 function mapStateToProps(data) {
