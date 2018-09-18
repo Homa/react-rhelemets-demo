@@ -1,9 +1,11 @@
-import { FETCH_CARDS_DATA} from '../actions/types';
+import { FETCH_CARDS_DATA } from '../actions/types';
 
 export default function(state = {}, action) {
+
   switch (action.type) {
     case FETCH_CARDS_DATA:
-      return action.payload || false;
+      return {...state, ...action.payload};
+
     default:
       return state;
   }
