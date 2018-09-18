@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
-import dataReducer from './cardsDataReducer';
+import cardsDataReducer from './cardsDataReducer';
+import addCardReducer from './addCardReducer';
 
 export default combineReducers({
-  data: dataReducer
+  cardsBand: cardsDataReducer,
+  addCards: addCardReducer
 });

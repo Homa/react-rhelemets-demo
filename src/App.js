@@ -1,15 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import CardsBand from './components/CardsBand'
-import './rhelements/rh-card'
-import './rhelements/rh-button'
-import './rhelements/rh-cta'
-import './rhelements/rh-icon'
+import CardsBand from './components/CardsBand';
+import AddCard from './components/AddCard';
 
 const App = () => {
   return (
     <div className="App">
       <CardsBand></CardsBand>
+      <AddCard></AddCard>
       <div id="labs" className="band band-alt band-narrow">
         <div className="container">
           <div>
