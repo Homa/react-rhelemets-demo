@@ -14,7 +14,7 @@ class CardsBand extends Component {
     if (this.props && this.props.cards) {
       return this.props.cards.map((item, index) => {
         return (
-          <div className="col-md-4 sol-sm-12 col-sm-push-bottom" key={index}>
+          <div className="flex-item card card-light" key={index}>
             <rh-card theme="light">
               <h2 slot="header">{ item.title }</h2>
               <p>{ item.desc }</p>
@@ -30,11 +30,11 @@ class CardsBand extends Component {
 
   render() {
     return(
-      <div className="band band-narrow crossed band-first">
+      <div className="band">
         <div className="container">
-          <h3>{ this.props.title }</h3>
-          <div className="row push-top">
-            { this.renderContent() }
+          <h2 class="section-title">{ this.props.title }</h2>
+          <div className="flex-grid">
+              { this.renderContent() }
           </div>
         </div>
       </div>
