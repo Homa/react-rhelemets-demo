@@ -48,7 +48,7 @@ class AddCard extends Component {
     return(
       <div className="band band-border-top">
         <div className="container">
-          <div className="push-bottom">
+          <div className="push-bottom text-center">
             <button onClick={ this.addCard }>
               Add Card
             </button>
