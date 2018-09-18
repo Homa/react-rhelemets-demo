@@ -6,6 +6,8 @@
     "@rhelements/cp-theme": "^1.0.0-prerelease.2",
     "@rhelements/rh-card": "^1.0.0-prerelease.2",
     "@rhelements/rh-cta": "^1.0.0-prerelease.2",
+    "@rhelements/rh-icon": "^1.0.0-prerelease.2",
+    "@rhelements/rh-icon-panel": "^1.0.0-prerelease.2",
     "@webcomponents/webcomponentsjs": "^2.1.1",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
