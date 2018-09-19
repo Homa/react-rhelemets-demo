@@ -32,7 +32,7 @@ class CardsBand extends Component {
     return(
       <div className="band">
         <div className="container">
-          <h2 class="section-title text-center">{ this.props.title }</h2>
+          <h2 className="section-title text-center">{ this.props.title }</h2>
           <div className="flex-grid">
               { this.renderContent() }
           </div>
