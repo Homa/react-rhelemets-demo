@@ -18,7 +18,7 @@ class CardsBand extends Component {
             <rh-card theme="light">
               <h2 slot="header">{ item.title }</h2>
               <p>{ item.desc }</p>
-              <p><rh-cta><a href="{ item.buttonLink }">{ item.buttonTitle }</a></rh-cta></p>
+              <p><rh-cta priority={ item.priority } color={ item.color }><a href="{ item.buttonLink }">{ item.buttonTitle }</a></rh-cta></p>
             </rh-card>
           </div>
         );
