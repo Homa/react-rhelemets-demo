@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Modal from './Modal';
 import { connect } from 'react-redux';
 import * as actions from '../actions';
-import '@rhelements/rh-card/rh-card';
-import '@rhelements/rh-cta/rh-cta';
+import '@rhelements/rh-card/rh-card.umd';
+import '@rhelements/rh-cta/rh-cta.umd';
 
 class AddCard extends Component {
 

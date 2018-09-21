@@ -1,7 +1,7 @@
 import React from 'react';
-import '@rhelements/rh-icon-panel/rh-icon-panel';
-import '@rhelements/rh-icon/rh-icon';
-import '@rhelements/rh-cta/rh-cta';
+import '@rhelements/rh-icon-panel/rh-icon-panel.umd';
+import '@rhelements/rh-icon/rh-icon.umd';
+import '@rhelements/rh-cta/rh-cta.umd';
 
 const AddIconPanel = () => {
   return (
